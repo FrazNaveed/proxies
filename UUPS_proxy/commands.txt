@@ -1,0 +1,8 @@
+For Deployment:
+env $(cat .env) npx hardhat run --network sepolia scripts/deploy2.js 
+
+For verify:
+env $(cat .env) npx hardhat verify --network sepolia 0x0E0D18e423f9eA2C4b4EFF735a1C4D5DE7FC9B05
+
+if Constructor argument then verify:
+env $(cat .env) npx hardhat verify --network sepolia 0xD142Fe82CB514D09d9d24537aA1d43ddA529af9d  "0x5F2090A425687E4951fd87D424724Ef1E33c24F3"

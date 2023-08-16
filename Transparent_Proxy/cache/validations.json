@@ -1,0 +1,155 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/BoxV2.sol:BoxV2": {
+        "src": "contracts/BoxV2.sol:3",
+        "version": {
+          "withMetadata": "8246dec6f0e973957fd8e02aa87e3172136ec3f24da2768275e48a1e8a7c0229",
+          "withoutMetadata": "b34f8e0c9d38b58dd452e8725e3c95f31d96cb456402ced1d815aa7f396d2b65",
+          "linkedWithoutMetadata": "b34f8e0c9d38b58dd452e8725e3c95f31d96cb456402ced1d815aa7f396d2b65"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "inc()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "val",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/BoxV2.sol:4"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    },
+    {
+      "contracts/BoxV1.sol:BoxV1": {
+        "src": "contracts/BoxV1.sol:3",
+        "version": {
+          "withMetadata": "31d2c163ce40be3e57faa923961a2f5aff8897887118d57eede38b7eb4e878a2",
+          "withoutMetadata": "d102744a35ccc4bfd03c19ec71484cb3a0734843f864519bf5397d485f9cc0fa",
+          "linkedWithoutMetadata": "d102744a35ccc4bfd03c19ec71484cb3a0734843f864519bf5397d485f9cc0fa"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "val",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV1",
+              "src": "contracts/BoxV1.sol:4"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    },
+    {
+      "contracts/BoxV1.sol:BoxV1": {
+        "src": "contracts/BoxV1.sol:3",
+        "version": {
+          "withMetadata": "31d2c163ce40be3e57faa923961a2f5aff8897887118d57eede38b7eb4e878a2",
+          "withoutMetadata": "d102744a35ccc4bfd03c19ec71484cb3a0734843f864519bf5397d485f9cc0fa",
+          "linkedWithoutMetadata": "d102744a35ccc4bfd03c19ec71484cb3a0734843f864519bf5397d485f9cc0fa"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "val",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV1",
+              "src": "contracts/BoxV1.sol:4"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      },
+      "contracts/BoxV2.sol:BoxV2": {
+        "src": "contracts/BoxV2.sol:3",
+        "version": {
+          "withMetadata": "8246dec6f0e973957fd8e02aa87e3172136ec3f24da2768275e48a1e8a7c0229",
+          "withoutMetadata": "b34f8e0c9d38b58dd452e8725e3c95f31d96cb456402ced1d815aa7f396d2b65",
+          "linkedWithoutMetadata": "b34f8e0c9d38b58dd452e8725e3c95f31d96cb456402ced1d815aa7f396d2b65"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "inc()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "val",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/BoxV2.sol:4"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.0"
+      }
+    }
+  ]
+}
